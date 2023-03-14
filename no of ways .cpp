@@ -144,7 +144,7 @@ int main ()
         freopen("output.txt", "w", stdout);
         #endif
          int X=7,x=0;
-           for(int j=1;j*j<=X;j++)
+           for(int j=1;j*j<=X;j++)     // it basically find no of(a,b) such that a*b=n;
            {
              if(X%j==0)
              {
